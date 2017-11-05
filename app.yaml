@@ -11,7 +11,8 @@ skip_files:
 env_variables:
   # Put production environment variables here.
   APP_LOG: errorlog
-  APP_KEY: rlfsn8Jpu/2aFqXJXHUzqYS67n6zamjqjy6pr7VxwaU=
   STORAGE_DIR: /tmp
-  CACHE_DRIVER: database
-  SESSION_DRIVER: database
+  APP_KEY: KBlGMNUspPqI8rC6YV2FmJgw1eUZHdi4Gpz6x3uXZpk=
+  APP_NAME: Legal-Ally
+  APP_DEBUG: true
+  APP_LOG_LEVEL: debug
