@@ -1,0 +1,29 @@
+runtime: php
+env: flex
+
+runtime_config:
+  document_root: public
+
+# Ensure we skip ".env", which is only for local development
+skip_files:
+  - .env
+
+env_variables:
+  # Put production environment variables here.
+  APP_LOG: errorlog
+  APP_KEY: YOUR_APP_KEY
+  STORAGE_DIR: /tmp
+  APP_DEBUG=true
+APP_LOG_LEVEL=debug
+
+BROADCAST_DRIVER=log
+CACHE_DRIVER=file
+SESSION_DRIVER=file
+QUEUE_DRIVER=sync
+
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=mohitverma2323@gmail.com
+MAIL_PASSWORD=rknyaerqkhsghkzn
+MAIL_ENCRYPTION=tls
