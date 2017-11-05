@@ -12,7 +12,7 @@ env_variables:
   # Put production environment variables here.
   APP_LOG: errorlog
   STORAGE_DIR: /tmp
-  APP_KEY: KxqmLrjEh07kBMkS4ThoHS4V6dnpe5asSsIxSD0UouE=
+  APP_KEY: 'base64:KxqmLrjEh07kBMkS4ThoHS4V6dnpe5asSsIxSD0UouE='
   APP_NAME: Legal-Ally
   APP_DEBUG: true
   APP_LOG_LEVEL: debug
