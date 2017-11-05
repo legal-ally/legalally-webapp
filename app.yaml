@@ -12,7 +12,6 @@ env_variables:
   # Put production environment variables here.
   APP_LOG: errorlog
   APP_KEY: rlfsn8Jpu/2aFqXJXHUzqYS67n6zamjqjy6pr7VxwaU=
-  APP_LOG: errorlog
   STORAGE_DIR: /tmp
   CACHE_DRIVER: database
   SESSION_DRIVER: database
