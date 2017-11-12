@@ -16,3 +16,6 @@ env_variables:
   APP_NAME: Legal-Ally
   APP_DEBUG: true
   APP_LOG_LEVEL: debug
+  MYSQL_DSN: mysql:unix_socket=/cloudsql/legalally;dbname=legalally
+  MYSQL_USER: legalally
+  MYSQL_PASSWORD: 'taxicab1729'
