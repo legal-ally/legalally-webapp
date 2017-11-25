@@ -6,7 +6,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="grid_5">
-					<form id="contact-form">
+					<form id="contact-form" action="/submitRequest" method="post">
 							<header>
 								<h2><span>Enter Details:</span></h2>
 							</header>
@@ -21,7 +21,7 @@
 									</label>
 									<label class="phone">
 										<span class="text">Contact Number:</span>
-										<input type="text" name="phone" placeholder="" value="" data-constraints="@Required" />
+										<input type="text" name="contact" placeholder="" value="" data-constraints="@Required" />
 									</label>
 								<div class="cont_btn">
 									<a href="#" data-type="reset" class="btn">Clear</a>
