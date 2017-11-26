@@ -19,6 +19,6 @@ env_variables:
   MYSQL_DSN: mysql:unix_socket=/cloudsql/legalally;dbname=legalally
   MYSQL_USER: legalally
   MYSQL_PASSWORD: 'taxicab1729'
-  MAILGUN_DOMAIN:sandbox5e57686f219a41b0907c78529014f628.mailgun.org
-  MAILGUN_SECRET:key-3b79bed7bc40cd8ac6ac4f1e7b821518
-  MAIL_DRIVER:mailgun 
+  MAILGUN_DOMAIN: sandbox5e57686f219a41b0907c78529014f628.mailgun.org
+  MAILGUN_SECRET: key-3b79bed7bc40cd8ac6ac4f1e7b821518
+  MAIL_DRIVER: mailgun 
