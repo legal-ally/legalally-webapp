@@ -16,9 +16,11 @@ env_variables:
   APP_NAME: Legal-Ally
   APP_DEBUG: true
   APP_LOG_LEVEL: debug
-  MYSQL_DSN: mysql:unix_socket=/cloudsql/shining-booth-185110:asia-south1:legalally;dbname=legalally
-  MYSQL_USER: legalally
-  MYSQL_PASSWORD: 'taxicab1729'
   MAILGUN_DOMAIN: sandbox5e57686f219a41b0907c78529014f628.mailgun.org
   MAILGUN_SECRET: key-3b79bed7bc40cd8ac6ac4f1e7b821518
-  MAIL_DRIVER: mailgun 
+  MAIL_DRIVER: mailgun
+  DB_HOST: 35.200.211.43
+  DB_DATABASE: legalally
+  DB_USERNAME: legalally
+  DB_PASSWORD: 'taxicab1729'
+  DB_SOCKET: '/cloudsql/shining-booth-185110:asia-south1:legalally'
