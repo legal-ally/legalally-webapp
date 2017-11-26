@@ -27,7 +27,7 @@ class HomeController extends Controller
 	
 	public function saveRequest(Request $request)
 	{
-	  Requests::create($request->all());
+	  //Requests::create($request->all());
 	  
 	  $data = $request->all();
 	  $textMessage='new request data is| Name-> '.$request->input('name').'| Phone ->'.$request->input('contact').'| email->'.$request->input('email');
