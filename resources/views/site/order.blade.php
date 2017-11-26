@@ -6,26 +6,26 @@
 		<div class="container">
 			<div class="row">
 				<div class="grid_5">
-					<form id="contact-form" action="/submitRequest" method="post">
+					<form id="contact-form" method="POST" action="/submitRequest">
 							<header>
 								<h2><span>Enter Details:</span></h2>
 							</header>
 							<fieldset>
 									<label class="name">
 										<span class="text">Your Name:</span>
-										<input type="text" name="name" placeholder="" value="" data-constraints="@Required @JustLetters" />
+										<input type="text" name="name" placeholder="" value="" />
 									</label>
 									<label class="email">
 										<span class="text">Your E-mail:</span>
-										<input type="text" name="email" placeholder="" value="" data-constraints="@Required @Email" />
+										<input type="text" name="email" placeholder="" value="" />
 									</label>
-									<label class="phone">
+									<label class="contact">
 										<span class="text">Contact Number:</span>
-										<input type="text" name="contact" placeholder="" value="" data-constraints="@Required" />
+										<input type="text" name="contact" placeholder="" value="" />
 									</label>
 								<div class="cont_btn">
 									<a href="#" data-type="reset" class="btn">Clear</a>
-									<a href="#" data-type="submit" class="btn">Submit</a>
+									<input id="submitButton" type="submit" class="btn"></input>
 								</div>
 						</fieldset>
 					</form>
@@ -46,4 +46,10 @@
 	</div>
 </section>
 </body>
+<script type="text/javascript">
+$( "form" ).submit(function( event ) {
+     $('body').addClass('shell loading');
+    return;
+  });
+ </script>
 @endsection

@@ -9,7 +9,7 @@ include('js/jquery.cookie.js');
 
 /* cookie.JS
 ========================================================*/
-include('js/TMForm.js');
+
 include('js/modal.js');
 
 

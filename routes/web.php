@@ -16,6 +16,8 @@ Route::get('/', [
     'as' => 'site.index'
 ]);
 
+Route::post('/submitRequest', 'HomeController@saveRequest');
+
 Route::get('/about', [
     'uses' => 'HomeController@getAbout',
     'as' => 'site.about'
@@ -30,5 +32,3 @@ Route::get('/book', [
     'uses' => 'OrderController@saveBooking',
     'as' => 'site.order'
 ]);
-
-Route::get('sendbasicemail','MailController@basic_email');

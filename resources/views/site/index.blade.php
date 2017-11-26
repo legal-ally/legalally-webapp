@@ -8,19 +8,14 @@
 				<div class="item" data-src="images/propertyVerfication2.jpg">
 					<div class="camera_caption fadeIn">
 						<h3>Property Verification by Experts</h3>
-						<p>Contact Us by</p>
-						<a href="#" class="btn bd-ra"><span class="fa fa-envelope-o"></span></a>
-						<a href="#" class="btn bd-ra"><span class="fa fa-phone"></span></a>
-						<a href="#" class="btn bd-ra"><span class="fa fa-map-marker"></span></a>
+						
 					</div>
 				</div>
                 <div class="item" data-src="images/propertyVerify.jpg">
 					<div class="camera_caption fadeIn">
 						<h3 style="color:#232b32;">Trusted Property Verfication and Registration</h3>
 						<p style="color:#232b32;">Get Started Now!</p>
-						<a href="#" class="btn bd-ra"><span class="fa fa-envelope-o"></span></a>
-						<a href="#" class="btn bd-ra"><span class="fa fa-phone"></span></a>
-						<a href="#" class="btn bd-ra"><span class="fa fa-map-marker"></span></a>
+					
 					</div>
 				</div>
 				
